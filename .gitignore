@@ -1,0 +1,41 @@
+*.jar
+*.war
+*.ear
+*.class
+node_modules/
+vrni-ui/WebContent
+
+# Don't git ignore these entries
+!vrni-service/lib/*.jar
+
+# Idea specific git ignore
+.idea
+
+# eclipse specific git ignore
+*.pydevproject
+.project
+.metadata
+*target*
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+#Mac files
+.DS_Store
+*.DS_Store
+
+vrni-service/.gitignore
+vrni-ui/build
