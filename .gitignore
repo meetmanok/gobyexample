@@ -2,11 +2,6 @@
 *.war
 *.ear
 *.class
-node_modules/
-vrni-ui/WebContent
-
-# Don't git ignore these entries
-!vrni-service/lib/*.jar
 
 # Idea specific git ignore
 .idea
@@ -36,6 +31,3 @@ local.properties
 #Mac files
 .DS_Store
 *.DS_Store
-
-vrni-service/.gitignore
-vrni-ui/build
